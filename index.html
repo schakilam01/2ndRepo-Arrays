@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>
+            Guess The Number
+        </title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class = "container">
+            <h1>
+                Guess The Number
+            </h1>
+            <p>
+                Try to guess the random number between 1 and 100. We will tell you if you are close or far from your original guess.
+            </p>
+            <div class = "game">
+                <input type="number" id = "guessfield" class="guessfield" placeholder="Enter your Guess">
+                <button id="submitguess" class="submitguess">
+                    Submit your Guess
+                </button>
+            </div>
+            <div class = "result">
+                <p id="guesses"></p>
+                <p id="lastresult"></p>
+                <p id="loworhigh"></p>
+            </div>
+            <button id="resetbutton" class="resetbutton">
+                Start New Game
+            </button>
+        </div>
+        <script src = "index.js"></script>
+    </body>
+</html>
